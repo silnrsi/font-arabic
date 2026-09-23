@@ -31,7 +31,7 @@ Note, however, that reh and waw kerning rules implemented in Harmattan are autog
 
 The OpenType "smarts" in most SIL fonts is authored in an extended version of [Adobe Feature File (FEA)](https://github.com/adobe-type-tools/afdko/blob/develop/docs/OpenTypeFeatureFileSpecification.md) syntax. To denote the use of these extensions, the filename suffix `.feax` is used. Note that the extensions are merely syntactic sugar in that they cannot do anything more than Adobe FEA files can do, but some complex and tedious code can be expressed more simply in FEAX than in FEA. For more information about FEAX, see [FEA Extensions](https://github.com/silnrsi/feax/blob/main/docs/feaextensions.md).
 
-## font-arab-tools
+## font-arabic
 
 ### absGlyphList/
 
@@ -70,7 +70,7 @@ Instead, we use a simple shell script that copies the shared files to all releva
 
 ```
     ..../fonts/
-          +--- font-arab-tools/
+          +--- font-arabic/
           +--- font-lateef/
           +--- font-harmattan/
           +--- font-scheherazade/
@@ -78,7 +78,7 @@ Instead, we use a simple shell script that copies the shared files to all releva
           +--- font-ruwudu/
 ```
 
-Any files that are shared within these font projects must, within all repos, be in the same location. For eample, some of the files share by Scheherazade, Harmattan, Lateef and font-arab-tools repos are:
+Any files that are shared within these font projects must, within all repos, be in the same location. For eample, some of the files share by Scheherazade, Harmattan, Lateef and font-arabic repos are:
 
 ```
            source/opentype/gsub.feax
@@ -93,8 +93,8 @@ Any files that are shared within these font projects must, within all repos, be 
 
 At present there are two groups of projects that share files:
 
-- Scheherazade, Harmattan, Lateef (and font-arab-tools) share the most files, and the shell script for these projects is `tools/copycommon-shl`
-- Alkalami, Ruwudu (and, again, font-arab-tools) share a few files, and the shell script for these projects is `tools/copycommon-ra`
+- Scheherazade, Harmattan, Lateef (and font-arabic) share the most files, and the shell script for these projects is `tools/copycommon-shl`
+- Alkalami, Ruwudu (and, again, font-arabic) share a few files, and the shell script for these projects is `tools/copycommon-ra`
 
 Development of shared files can happen in any of the repos and then that repo's `copycommon` can be used to propagate changes from the project you are working on to the related repos. A `-q` option exists for those who prefer less verbose progress messaging, and `-d` will cause the script to "dry run", i.e., report what it would do without actually copying any files (see example below).
 
@@ -119,7 +119,7 @@ Sending files from font-scheherazade to ../font-harmattan
   Would copy source/opentype/gpos.feax
 Sending files from font-scheherazade to ../font-lateef
   Would copy source/opentype/gpos.feax
-Sending files from font-scheherazade to ../font-arab-tools
+Sending files from font-scheherazade to ../font-arabic
   Would copy source/opentype/gpos.feax
 
  /smith/font-scheherazade❯ 

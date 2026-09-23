@@ -1,4 +1,4 @@
-# font-arab-tools
+# font-arabic
 Tools and data shared by a number of Arabic script font projects
 
 

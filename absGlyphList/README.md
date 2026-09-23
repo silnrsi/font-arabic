@@ -48,7 +48,7 @@ use `../tools/make_glyphdata.py`. For example, to make the glyph_data file for
 Scheherazade use `-f s` as follows:
 
 ```
-cd font-arab-tools/absGlyphList
+cd font-arabic/absGlyphList
 ../tools/make_glyphdata.py -f s
 ```
 This will create Scheherazde-specific `glyph_data.csv` (in the current directory) 

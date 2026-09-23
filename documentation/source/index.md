@@ -17,4 +17,4 @@ This documentation is a set of HTML pages that can be viewed in any modern web b
 - [Signs Spanning Numbers](spanning.md) — Characters which span (or enclose) numbers
 
 ### Developer documentation
-- [README](https://github.com/silnrsi/font-arab-tools/tree/master/documentation/developer) — Developer documentation 
+- [README](https://github.com/silnrsi/font-arabic/tree/master/documentation/developer) — Developer documentation 
