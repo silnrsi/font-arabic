@@ -1745,6 +1745,8 @@ absYeh.noDots,yeh-ar.noDots,uni064A.noDots,,AL,1744,SHL,absAlefMaksura,alefMaksu
 absYehFin.noDots,yeh-ar.noDots.fina,uni064A.noDots.fina,,AL,1745,SHL,absAlefMaksuraFin,alefMaksura-ar.fina,,,,,,,,,,,,,
 absYehMed.noDots,yeh-ar.noDots.medi,uni064A.noDots.medi,,AL,1746,SHL,absBehNoDotsMed,behDotless-ar.medi,,,,,,,,,,,,,
 absYehIni.noDots,yeh-ar.noDots.init,uni064A.noDots.init,,AL,1747,SHL,absBehNoDotsIni,behDotless-ar.init,,,,,,,,,,,,,
+absYeh.noDots.loclKIR,yeh-ar.noDots.loclKIR,uni064A.noDots.loclKIR,,AL,1747.1,SHL,absAlefMaksura,alefMaksura-ar,,,,,,,,,Same as above but anchor is moved right,,,,
+absYehFin.noDots.loclKIR,yeh-ar.noDots.fina.loclKIR,uni064A.noDots.fina.loclKIR,,AL,1747.2,SHL,absAlefMaksuraFin,alefMaksura-ar.fina,,,,,,,,,,,,,
 ,yehthin-ar,uni0886,0886,AL,1748,SHL,,,,,,,,,,14.0,does not occur!,,,,
 ,yehthin-ar.fina,uni0886.fina,,AL,1749,SHL,,,,,,,,,,14.0,does not occur!,,,,
 ,yehthin-ar.medi,uni0886.medi,,AL,1750,SHL,,,,,,,,,,14.0,,,,,
