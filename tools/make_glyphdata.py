@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 __doc__ = '''generate project-specific subset of absGlyphData.csv'''
-__url__ = 'https://github.com/silnrsi/font-arab-tools'
+__url__ = 'https://github.com/silnrsi/font-arabic'
 __copyright__ = 'Copyright (c) 2020-2025 SIL Global  (https://www.sil.org)'
 __license__ = 'Released under the MIT License (https://opensource.org/licenses/MIT)'
 __author__ = 'Bob Hallissy'
@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(
     epilog='''
 For example, to generate the glyph_data.csv file for Scheherazade, use:
 
-   cd font-arab-tools/absGlyphList
+   cd font-arabic/absGlyphList
    %(prog)s -f s
 
 By default it reads (absGlyphList.csv) and writes (glyph_data.csv) in the current directory. 

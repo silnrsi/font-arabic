@@ -3,7 +3,7 @@ __doc__ = '''for all UFOs in current folder, construct all desired lam-alef liga
 anchors diaA, diaB, diaB2 and alef from the components.
 For example, construct lam_alef-ar.fina from lam-ar.medi.preAlef and alef-ar.fina.postLamMed
 '''
-__url__ = 'https://github.com/silnrsi/font-arab-tools'
+__url__ = 'https://github.com/silnrsi/font-arabic'
 __copyright__ = 'Copyright (c) 2021-2025 SIL Global  (https://www.sil.org)'
 __license__ = 'Released under the MIT License (https://opensource.org/licenses/MIT)'
 __author__ = 'Bob Hallissy'
